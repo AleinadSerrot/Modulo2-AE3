@@ -24,7 +24,6 @@ header {
     border-bottom: 1px solid #312273; 
     padding: 1.5rem;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,9 +35,7 @@ header h1 {
     color: #ffffff;  
     margin: 0;
     font-weight: 700;
-
 }
-
 
 /* corresponde a <main class="contenedor-principal"> */
 .contenedor-principal {
@@ -97,6 +94,7 @@ footer p {
     border-radius: 0.5rem;
 }
 
+/*utilización mediaqueries*/
 @media (max-width: 768px) {
     body {
         font-size: 18px;
